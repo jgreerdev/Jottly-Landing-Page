@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('fonts/proximanova-light.eot');
+    src: url('fonts/proximanova-light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-light.woff2') format('woff2'),
+         url('fonts/proximanova-light.woff') format('woff'),
+         url('fonts/proximanova-light.ttf') format('truetype'),
+         url('fonts/proximanova-light.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'proxima_novasemibold';
+    src: url('fonts/proximanova-semibold.eot');
+    src: url('fonts/proximanova-semibold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-semibold.woff2') format('woff2'),
+         url('fonts/proximanova-semibold.woff') format('woff'),
+         url('fonts/proximanova-semibold.ttf') format('truetype'),
+         url('fonts/proximanova-semibold.svg#proxima_novasemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+a{
+  color: #000;
+}
+.lead {
+  background: url(../images/team.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h2{
+  font-family: 'proximanova-semibold', sans-serif;
+}
+h5{
+  font-family: 'Noto Sans', sans-serif;
+}
+.headline{
+  font-family: 'Carme', sans-serif;
+}
+.message{
+  font-family: 'Carme', sans-serif;
+  font-size: 28px;
+}
+.row.hero{
+  padding-top: 20px;
+}
+.row.maintext{
+  padding-top: 100px;
+  text-align: center;
+}
+.row.subtext{
+  text-align: center;
+}
+#logotext{
+  color: white;
+  font-size: 25px;
+}
+.button-primary.login{
+  font-size: 20px;
+  font-family: 'Actor', sans-serif;
+}
+.row.submt{
+  margin-top: 150px;
+  margin-bottom: 350px;
+}
+.row.org{
+  background-color: #f4f4f4;
+  padding: 100px;
+}
+.row.colab{
+  background-color: white;
+  padding: 100px;
+}
+
+.row.sec{
+  margin-top: 1400;
+  background-color: #f4f4f4;
+  padding: 100px;
+}
+.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #f15c69;
+  border-color: #F03376;
+  border-radius: 10px;
+}
+.container.signup{
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+.button-primary.signup{
+  font-size: 20px;
+  font-family: 'Actor', sans-serif;
+  height: 75px;
+}
+.button-primary.submt{
+  height: 75px;
+  width: 500px;
+  font-size: 35px;
+  font-family: 'Actor', sans-serif;
+}
+.row.foot{
+  background-color: #8c8c8c;
+}
+.one.column.slogo{
+  margin-top: 20px;
+}
+#logotextb{
+  color: #FFF;
+}
+.four.columns.navlist{
+  margin-top: 40px;
+  text-align:center;
+}
+.navlist li{
+display: inline;
+list-style-type: none;
+font-size: 18px;
+}
+#legal{
+  margin-top: 40px;
+  margin-left: 100px;
+  font-size: 12px;
+  color: #FFF;
+}
+@media only screen and (max-width: 479px) {
+  .one.column.logo{
+  text-align: center;
+  }
+  .maintext{
+    font-size: 1.3em;
+  }
+  #logotop{
+    height: 30px;
+    width: 30px;
+  }
+  #logotext{
+    padding-left: 10px;
+    font-size: 75px;
+    display: inline;
+  }
+  .two.columns.offset-by-nine.login{
+  text-align: center;
+  }
+  .row.submt{
+  margin-bottom: 50px;
+  }
+  .row.submt.signup{
+  margin-top: 10px;
+  }
+  .button-primary.submt {
+  font-size: 14px;
+  }
+  .button-primary.signup{
+  font-size: 12px;
+  }
+  .row.org{
+  padding: 20px;
+  }
+  #colabimage{
+  position: absolute;
+  top: 1015px;
+  }
+  .headline.colab{
+  position: absolute;
+  top: 1200px;
+  }
+  .message.colab{
+  position: absolute;
+  top: 1300px;
+  text-align: center;
+  font-size: 1.2em;
+  }
+  .row.colab{
+  padding: 20px;
+  height: 200px;
+  }
+  .row.sec{
+  padding: 20px;
+  margin-top: 225px;
+  }
+  .headline{
+  text-align: center;
+  }
+  .message{
+  font-size: 19px;
+  text-align: center;
+  }
+  .lead {
+  background: url(../images/team.jpg) no-repeat top center;
+  -webkit-background-size: 100%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+  }
+  .container.signup{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  }
+  .navlist li.mobile-hide{
+  display: none;
+  }
+  .navlist li{
+  display: block;
+  padding: 1px;
+  list-style-type: none;
+  font-size: 18px;
+  }
+  .navlist{
+  padding-bottom: 5px;
+  }
+  a{
+  color: #000;
+  background: #f4f4f4;
+  text-decoration: none;
+  padding:.9em .15em;
+  display:block;
+  margin:0 auto;
+  width:99%;
+  text-align:center;
+  }
+  .one.column.slogo.offset-by-one{
+  position: absolute;
+  top: 2553px;
+  left: 15px;
+  }
+}
